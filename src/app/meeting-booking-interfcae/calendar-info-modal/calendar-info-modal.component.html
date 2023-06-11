@@ -1,0 +1,22 @@
+<div [@modalAnimation] *ngIf="showModal"
+  class="h-screen w-screen bg-black bg-opacity-30 z-40 fixed overflow-auto"
+>
+  <div class="flex justify-center items-center h-screen">
+    <div
+      class="relative border-solid border-black border border-opacity-60 rounded-xl h-80 w-96 z-50 bg-white"
+    >
+      <h2 class="text-xl leading-relaxed mt-4 w-5/6 m-auto">
+        Här bokar du in möten med oss!
+      </h2>
+      <div class="border-t w-full mt-3"></div>
+      <p class="  leading-relaxed mt-3 mb-3 w-5/6 m-auto opacity-75">På denna sidan finner du en kalender som du använder för att boka in möten med oss! <br><br> För att boka in ett möte drar du ut en av aktiviteterna till vänster till någon av dagarna på kalendern</p>
+      <div class="border-t w-full mb-3"></div>
+      <button type="button"
+        (click)="toggleModal()"
+        class="bg-pink-100 p-2 absolute mr-4 border border-opacity-30 font-semibold border-black rounded-lg right-3 bottom-5"
+      >
+        Jag förstår!
+      </button>
+    </div>
+  </div>
+</div>

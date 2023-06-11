@@ -1,0 +1,33 @@
+<div id="section-2" class="relative w-full max-w-screen-xl m-auto h-1080-plans">
+  <div class="relative z-10 md:right-4 top-4 md:top-40 ">
+    <h1
+    class="relative md:absolute p-5 leading-normal text-[3.25rem] right-0 w-fit font-extrabold bg-clip-text text-transparent md:p-0 md:text-6xl bg-gradient-to-r from-gradiant_start to-gradiant_stop">
+    Våra erbjudanden
+  </h1>
+    <p class="mb-24 p-5 w-full relative md:absolute right-0 text-2xl md:p-0 md:w-[30rem] lg:w-2/5 md:mb-0 md:mt-24">
+      Vi erbjuder tre olika paket som passar alla olika typer av företag. <br><br> Allt ifrån enkla en-sidiga webbsidor till detaljerade internet applikationer.
+    </p>
+
+  </div>
+  <img class="absolute top-0 right-0 mt-8 opacity-40 w-52 md:opacity-100 md:right-auto md:top-auto md:w-72 md:mt-20 float" src="../assets/images/Plans.png">
+  <div class="relative flex flex-col md:flex-row bottom-16 md:absolute">
+    <div (click)="toggleModal('enkel')" class="rounded-2xl relative h-96 w-[90%] md:w-[30%] xl:w-96 mb-6 m-auto md:m-[1.66%] xl:m-6 bg-pink transition-transform hover:scale-105">
+      <h2 class="w-auto mt-12 ml-4 text-3xl font-semibold lg:ml-8">Enkel</h2>
+      <p class="text-xl leading-relaxed mt-4 w-[85%] lg:w-3/4 m-auto">För er som letar efter att ta första steget ut i den digitala världen. Här bygger vi en grundläggande webbsida.</p>
+      <h2 class="absolute text-lg font-semibold bottom-12 md:bottom-6 lg:bottom-12 sm:left-12 left-6 lg:left-12 w-36 h-9">{{"10000" | currency:'SEK'}}</h2>
+      <button class="absolute h-12 text-lg font-semibold bottom-12 right-4 xl:right-12 w-36 md:hidden lg:block">Läs mer ></button>
+    </div>
+    <div (click)="toggleModal('standard')" class="rounded-2xl relative h-96 w-[90%] md:w-[30%] xl:w-96 mb-6 m-auto md:m-[1.66%] xl:m-6 bg-purple transition-transform hover:scale-105">
+      <h2 class="w-auto mt-12 ml-4 text-3xl font-semibold lg:ml-8">Standard</h2>
+      <p class="text-xl leading-relaxed mt-4 w-[85%] lg:w-3/4 m-auto">För er som söker en detaljerad webbsida med mer avancerade funktioner. Ni vill även nå ut era kunder via sökmotorer.</p>
+      <h2 class="absolute text-lg font-semibold bottom-12 md:bottom-6 lg:bottom-12 sm:left-12 left-6 lg:left-12 w-36 h-9">{{"25000" | currency:'SEK'}}</h2>
+      <button class="absolute h-12 text-lg font-semibold bottom-12 right-4 xl:right-12 w-36 md:hidden lg:block">Läs mer ></button>
+    </div>
+    <div (click)="toggleModal('prermium')" class="rounded-2xl relative h-96 w-[90%] md:w-[30%] xl:w-96 mb-6 m-auto md:m-[1.66%] xl:m-6 bg-blue transition-transform hover:scale-105">
+      <h2 class="w-auto mt-12 ml-4 text-3xl font-semibold lg:ml-8">Premium</h2>
+      <p class="text-xl leading-relaxed mt-4 w-[85%] lg:w-4/5 m-auto">För er som söker det allra bästa och prioriterar att vara ledande inom er bransch.</p>
+      <h2 class="absolute text-lg font-semibold bottom-12 md:bottom-6 lg:bottom-12 sm:left-12 left-6 lg:left-12 w-36 h-9">{{"50000" | currency:'SEK'}}</h2>
+      <button class="absolute block h-12 text-lg font-semibold bottom-12 right-4 xl:right-12 w-36 md:hidden lg:block">Läs mer ></button>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,133 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --pink-color: rgba(209, 3, 255, 0.179);
+  --purple-color: rgba(126, 0, 154, 0.179);
+  --blue-color: rgba(45, 3, 255, 0.179);
+
+  --pink-color-about: rgba(209, 3, 255, 0.179);
+  --purple-color-about: rgba(126, 0, 154, 0.179);
+  --blue-color-about: rgba(45, 3, 255, 0.179);
+
+  --fc-today-bg-color: rgba(209, 3, 255, 0.179);
+  --fc-button-bg-color: rgba(209, 3, 255, 0.179);
+  --fc-button-border-color: #0000;
+  --fc-button-hover-bg-color: rgba(209, 3, 255, 0.250);
+  --fc-button-hover-border-color: #1a252f;
+  --fc-button-active-bg-color: rgba(209, 3, 255, 0.250);
+  --fc-button-active-border-color: #151e27;
+
+}
+
+
+
+
+.fc-button-primary {
+  color: black !important;
+  opacity: 1 !important;
+  font-weight: 600 !important;
+}
+
+
+.text-55 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+/* for controlling the heigt of sections*/
+.h-1080 {
+height: 800px;
+}
+
+@media (min-width: 1024px) {
+  .h-1080 {
+    height: 1000px;
+    max-height: 1000px;
+  }
+}
+
+.h-1080-contact {
+  height: 900px;
+  }
+
+/* for controlling the heigt of sections*/
+.h-1080-plans {
+height: auto;
+max-height: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .h-1080-plans {
+    height: 1000px;
+    max-height: 1000px;
+  }
+}
+
+.h-750 {
+  height: 750px
+}
+
+/* for altering the marker color */
+*::-moz-selection { /* Code for Firefox */
+  background: var(--pink-color);
+}
+
+*::selection {
+  background: var(--pink-color);
+}
+
+.header-focus {
+  background-color: var(--pink-color);
+  border-radius: 5px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scaleX(-1);
+  }
+  50% {
+    transform: translateY(-10px) scaleX(-1);
+  }
+  100% {
+    transform: translateY(0) scaleX(-1);
+  }
+}
+
+@media (min-width: 640px) {
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.fc .fc-daygrid-event-harness {
+  margin: 5px;
+}
+
+.fc .fc-daygrid-event {
+  padding: 8px;
+}
+
+.fc .fc-highlight {
+  background: rgb(3 12 255 / 18%);
+}
+
+.fc .fc-cell-shaded, .fc .fc-day-disabled {
+  background: repeating-linear-gradient(45deg, rgb(0 0 0 / 1%), rgb(0 0 0 / 1%) 10px, rgb(0 0 0 / 3%) 10px, rgb(0 0 0 / 3%) 20px) !important;
+
+}

@@ -1,0 +1,39 @@
+<div [@modalAnimation] *ngIf="ModalService.showModal"
+  class="fixed z-40 w-screen h-screen overflow-auto bg-black bg-opacity-30"
+>
+  <div class="flex items-center justify-center h-screen">
+    <div
+      class="relative z-50 bg-white border border-black border-solid border-opacity-60 rounded-xl h-80 w-96"
+    >
+      <h2 class="w-5/6 m-auto mt-4 text-lg leading-relaxed">
+        Ange ett telefon nummer så ringer vi er och berättar om planen: {{ModalService.modalValue}}!
+      </h2>
+      <div class="w-full mt-6 border-t"></div>
+      <h2 class="mt-2 ml-8">Telefonnummer:</h2>
+      <form (submit)="onSubmit($event)">
+      <input
+        placeholder="070-123 45 67"
+        class="w-5/6 p-3 m-8 mt-4 bg-transparent border-b border-black outline-none"
+        id="number"
+        name="number"
+        required
+        type="tel"
+        #PhoneNumber
+      />
+      <div class="w-full mb-3 border-t"></div>
+      <button type="submit"
+        class="absolute p-2 mr-4 font-semibold bg-pink-100 border border-black rounded-lg border-opacity-30 right-20 bottom-5"
+        (click)="ModalService.userPhoneNumber = PhoneNumber.value;"
+      >
+        Ring mig!
+      </button>
+      <button type="button"
+        (click)="toggleModal('')"
+        class="absolute p-2 mr-4 font-semibold bg-gray-100 border border-black rounded-lg border-opacity-30 right-3 bottom-5"
+      >
+        Stäng
+      </button>
+    </form>
+    </div>
+  </div>
+</div>
