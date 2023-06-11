@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule} from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { LanddingComponent } from './landding/landding.component';
@@ -21,7 +22,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarInfoModalComponent } from './meeting-booking-interfcae/calendar-info-modal/calendar-info-modal.component';
 import { CalendarBookingModalComponent } from './meeting-booking-interfcae/calendar-booking-modal/calendar-booking-modal.component';
 
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { Nl2BrPipe } from './nl2br.pipe';
 
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,9 +45,17 @@ import { CalendarBookingModalComponent } from './meeting-booking-interfcae/calen
     PhoneModalComponent,
     CalendarInfoModalComponent,
     CalendarBookingModalComponent,
+    Nl2BrPipe
 
   ],
   imports: [
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
     BrowserModule,
     FullCalendarModule,
     AppRoutingModule,

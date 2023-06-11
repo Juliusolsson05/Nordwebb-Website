@@ -1,35 +1,68 @@
-<div id="section-3" class="w-full h-1080-contact bg-gray-50">
-  <div class="relative w-full max-w-screen-xl m-auto">
-    <div class="z-10 lg:ml-20 left-1/2 transform translate-x-[-50%] lg:translate-x-0 lg:left-0 w-[95%] sm:w-[85%] md:w-[70%] lg:w-3/5 xl:w-2/5 absolute top-28">
-      <h1
-        class="pl-4 m-auto text-6xl font-extrabold text-left text-transparent w-fit lg:pr-0 lg:m-0 bg-clip-text bg-gradient-to-r from-gradiant_start to-gradiant_stop">
-        Kontakta gärna oss!
-      </h1>
-      <form class="flex flex-col mt-6" action="mailto:youremail@example.com" method="post" enctype="text/plain">
-        <input placeholder="Ditt namn" class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 outline-1 lg:m-2"
-          type="text" id="name" name="name" required />
+<div
+    id="section-3"
+    class="w-full h-1080-contact bg-gray-50"
+>
+    <div class="relative w-full max-w-screen-xl m-auto">
+        <div class="z-10 lg:ml-20 left-1/2 transform translate-x-[-50%] lg:translate-x-0 lg:left-0 w-[95%] sm:w-[85%] md:w-[70%] lg:w-3/5 xl:w-2/5 absolute top-28">
+            <h1 class="pl-4 m-auto text-6xl font-extrabold text-left text-transparent w-fit lg:pr-0 lg:m-0 bg-clip-text bg-gradient-to-r from-gradiant_start to-gradiant_stop">{{"CONTACT_TITLE" | translate}}</h1>
+            <form
+                class="flex flex-col mt-6"
+                action="mailto:youremail@example.com"
+                method="post"
+                enctype="text/plain"
+            >
+                <input
+                    [placeholder]='"CONTACT_PLACEHOLDER_1" | translate'
+                    class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 outline-1 lg:m-2"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
 
-        <input placeholder="Din mailadress" class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 lg:m-2" type="email"
-          id="email" name="email" required />
+                <input
+                    [placeholder]='"CONTACT_PLACEHOLDER_2" | translate'
+                    class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 lg:m-2"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
 
-        <input placeholder="Mailets ämmne" class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 lg:m-2" type="text"
-          id="subject" name="subject" required />
-        <label class="pl-4 mt-8 mb-4 sm:pl-0">Mailets innehåll</label>
-        <textarea placeholder="Mailets innehåll"
-          class="w-5/6 p-3 m-auto mt-2 mb-2 bg-transparent border-2 border-gray-400 resize-none lg:m-2 h-36" id="message"
-          name="message" required></textarea>
-        <div class="flex w-full m-auto sm:w-auto lg:m-0">
-        <input type="submit"
-          class="mt-12 ml-4 bg-gradient-to-r from-gradiant_start to-gradiant_middle h-16 w-[45%] sm:w-44  text-2xl text-white font-semibold"
-          value="Skicka" />
-          <button routerLink="/Booking"
-      class="mt-12 ml-4 mr-4 sm:mr-0 bg-gradient-to-r from-gradiant_middle to-gradiant_stop h-16 w-[45%] sm:w-44  text-2xl text-white font-semibold"
-    >
-      Boka möte
-    </button>
-  </div>
-      </form>
+                <input
+                    [placeholder]='"CONTACT_PLACEHOLDER_3" | translate'
+                    class="w-3/4 p-3 m-auto mt-2 mb-2 bg-transparent border-b-2 border-gray-400 lg:m-2"
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                >
+                <label class="pl-4 mt-8 mb-4 sm:pl-0">{{"CONTACT_SUBTITLE" | translate}}</label>
+                <textarea
+                    [placeholder]='"CONTACT_PLACEHOLDER_4" | translate'
+                    class="w-5/6 p-3 m-auto mt-2 mb-2 bg-transparent border-2 border-gray-400 resize-none lg:m-2 h-36"
+                    id="message"
+                    name="message"
+                    required
+                ></textarea>
+                <div class="flex w-full m-auto sm:w-auto lg:m-0">
+                    <input
+                        type="submit"
+                        class="mt-12 ml-4 bg-gradient-to-r from-gradiant_start to-gradiant_middle h-16 w-[45%] sm:w-44  text-2xl text-white font-semibold"
+                        [value]='"CONTACT_BUTTON_1" | translate'
+                    >
+                    <button
+                        routerLink="/Booking"
+                        class="mt-12 ml-4 mr-4 sm:mr-0 bg-gradient-to-r from-gradiant_middle to-gradiant_stop h-16 w-[45%] sm:w-44  text-2xl text-white font-semibold"
+                    >
+                        {{"CONTACT_BUTTON_2" | translate}}
+                    </button>
+                </div>
+            </form>
+        </div>
+        <img
+            class="opacity-10 sm:opacity-[0.15] xl:opacity-100 right-0 absolute w-3/5 top-32"
+            src="../assets/images/Contact-upscale.png"
+        >
     </div>
-    <img class="opacity-10 sm:opacity-[0.15] xl:opacity-100 right-0 absolute w-3/5 top-32" src="../assets/images/Contact-upscale.png" />
-  </div>
 </div>

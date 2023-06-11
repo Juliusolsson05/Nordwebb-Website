@@ -1,83 +1,71 @@
-<div id="section-4" class="top-20 max-w-screen-xl w-full h-auto relative m-auto">
+<div id="section-4" class="relative w-full h-auto max-w-screen-xl m-auto top-20">
   <h1
-    class="ml-4 lg:m-0 w-fit text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gradiant_start to-gradiant_stop"
+    class="ml-4 font-extrabold text-transparent lg:m-0 w-fit text-7xl bg-clip-text bg-gradient-to-r from-gradiant_start to-gradiant_stop"
    >
-    Om oss
+    {{'ABOUT_TITLE' | translate }}
   </h1>
-  <div class="max-w-screen-lg m-auto flex-col sm:flex-row flex mt-16">
-    <div class="mb-12 sm:mb-0 text-center lg:text-left m-auto">
+  <div class="flex flex-col max-w-screen-lg m-auto mt-16 sm:flex-row">
+    <div class="m-auto mb-12 text-center sm:mb-0 lg:text-left">
       <div
         (mouseover)="nikolasHoverd = true"
         (mouseout)="nikolasHoverd = false"
-        class=" w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-pink-about rounded-full flex items-center transition-transform hover:scale-105"
+        class="flex items-center transition-transform rounded-full w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-pink-about hover:scale-105"
       >
         <img
           src="../assets/images/potraits/NikolasSollinger.png"
-          class="select-none m-auto h-56 sm:h-44 md:h-56 lg:h-64 rounded-b-full"
+          class="h-56 m-auto rounded-b-full select-none sm:h-44 md:h-56 lg:h-64"
         />
       </div>
-      <h3 class="mt-6 text-xl leading-relaxed ml-8 font-semibold">Nikolas Sollinger</h3>
+      <h3 class="mt-6 ml-8 text-xl font-semibold leading-relaxed">Nikolas Sollinger</h3>
       <h3
         [ngClass]="{ underline: nikolasHoverd }"
-        class="leading-relaxed ml-8 font-semibold flex"
+        class="flex ml-8 font-semibold leading-relaxed"
       >
-        <h3 class="block sm:hidden lg:block">NikolasSollinger</h3>@nordwebb.com
+        <h3 class="block sm:hidden lg:block">Nikolas.sollinger</h3>@nordwebb.com
       </h3>
-      <h3 class="leading-relaxed ml-8 font-semibold">072-19 63 30</h3>
+      <h3 class="ml-8 font-semibold leading-relaxed">072-19 63 30</h3>
     </div>
-    <div class="mb-12 sm:mb-0 text-center lg:text-left m-auto">
+    <div class="m-auto mb-12 text-center sm:mb-0 lg:text-left">
       <div
         (mouseover)="juliusHoverd = true"
         (mouseout)="juliusHoverd = false"
-        class=" w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-purple-about rounded-full flex items-center transition-transform hover:scale-105"
+        class="flex items-center transition-transform rounded-full w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-purple-about hover:scale-105"
       >
         <img
           src="../assets/images/potraits/JuliusOlsson.png"
-          class="select-none m-auto h-56 sm:h-44 md:h-56 lg:h-64 rounded-b-full"
+          class="h-56 m-auto rounded-b-full select-none sm:h-44 md:h-56 lg:h-64"
         />
       </div>
-      <h3 class="mt-6 text-xl leading-relaxed ml-8 font-semibold">Julius Olsson</h3>
+      <h3 class="mt-6 ml-8 text-xl font-semibold leading-relaxed">Julius Olsson</h3>
       <h3
         [ngClass]="{ underline: juliusHoverd }"
-        class="leading-relaxed ml-8 font-semibold flex"
+        class="flex ml-8 font-semibold leading-relaxed"
       >
-        <h3 class="block sm:hidden lg:block">JuliusOlsson</h3>@nordwebb.com
+        <h3 class="block sm:hidden lg:block">Julius.olsson</h3>@nordwebb.com
       </h3>
-      <h3 class="leading-relaxed ml-8 font-semibold">072-013 53 58</h3>
+      <h3 class="ml-8 font-semibold leading-relaxed">072-013 53 58</h3>
     </div>
-    <div class="mb-12 sm:mb-0 text-center lg:text-left m-auto">
+    <div class="m-auto mb-12 text-center sm:mb-0 lg:text-left">
       <div
         (mouseover)="albinHoverd = true"
         (mouseout)="albinHoverd = false"
-        class=" w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-blue-about rounded-full flex items-center transition-transform hover:scale-105"
+        class="flex items-center transition-transform rounded-full w-72 h-72 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 bg-blue-about hover:scale-105"
       >
         <img
           src="../assets/images/potraits/AlbinViklund.png"
-          class="select-none m-auto sm:h-44 h-56 md:h-56 lg:h-64 rounded-b-full"
+          class="h-56 m-auto rounded-b-full select-none sm:h-44 md:h-56 lg:h-64"
         />
       </div>
-      <h3 class="mt-6 text-xl leading-relaxed ml-8 font-semibold">Albin Viklund</h3>
+      <h3 class="mt-6 ml-8 text-xl font-semibold leading-relaxed">Albin Viklund</h3>
       <h3
         [ngClass]="{ underline: albinHoverd }"
-        class="leading-relaxed ml-8 font-semibold flex"
+        class="flex ml-8 font-semibold leading-relaxed"
       >
-        <h3 class="block sm:hidden lg:block">AlbinViklund</h3>@nordwebb.com
+        <h3 class="block sm:hidden lg:block">Albin.viklund</h3>@nordwebb.com
       </h3>
-      <h3 class="leading-relaxed ml-8 font-semibold">076-007 62 45</h3>
+      <h3 class="ml-8 font-semibold leading-relaxed">076-007 62 45</h3>
     </div>
   </div>
-  <p class="mt-12 sm:mt-24 mb-52 m-auto leading-relaxed w-3/4">
-    Vi är en digital byrå baserad i Göteborg som grundades i början av 2023.
-    Vårt team består av kreativa och passionerade individer med lång erfarenhet
-    inom webbdesign, utveckling och digital marknadsföring.
-    <br /><br />
-    Vi tror på att skapa unika och användarvänliga webbplatser som inte bara ser
-    fantastiska ut utan också fungerar sömlöst. Vår strategi är att förstå våra
-    kunders behov och mål och skapa skräddarsydda lösningar för att uppnå dem.
-    <br /><br />
-    Vi tror på att hålla oss uppdaterade med de senaste trenderna och
-    teknologierna för att alltid kunna leverera det bästa till våra kunder. Vårt
-    mål är att hjälpa företag att växa och utvecklas online genom att skapa en
-    stark digital närvaro.
+  <p class="w-3/4 m-auto mt-12 leading-relaxed sm:mt-24 mb-52" [innerHTML]='"ABOUT_TEXT" | translate | nl2br'>
   </p>
 </div>

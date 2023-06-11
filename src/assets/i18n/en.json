@@ -1,0 +1,71 @@
+{
+  "HEADER_HOME": "Home",
+  "HEADER_INFORMATION": "Information",
+  "HEADER_PLANS": "Plans",
+  "HEADER_CONTACT": "Contact",
+  "HEADER_ABOUT_US": "About Us",
+  "HEADER_BOOK_MEETING": "Book a Meeting",
+
+  "LANDING_TITLE": "We know \nwebsites",
+  "INFORMATION_TITLE": "Why \nwebsites?",
+  "PLANS_TITLE": "Our Offers",
+  "CONTACT_TITLE": "Feel free to contact us!",
+  "ABOUT_TITLE": "About Us",
+
+  "LANDING_BUTTON": "Free Quote",
+  "INFORMATION_BUTTON": "Watch video",
+  "CONTACT_BUTTON_1": "Send",
+  "CONTACT_BUTTON_2": "Book Meeting",
+
+  "LANDING_TEXT": "Websites can be a burden, we take the responsibility off your shoulders.",
+  "INFORMATION_TEXT": "A well-designed website is necessary to build trust and drive sales in today's digital world.\n\nIt is a platform to reach out to a larger audience and showcase your products or services 24/7.",
+  "PLANS_TEXT": "We offer three different packages to suit all types of businesses.\n\nFrom simple one-page websites to detailed internet applications.",
+  "ABOUT_TEXT": "We are a digital agency based in Gothenburg that was founded in early 2023. Our team consists of creative and passionate individuals with extensive experience in web design, development, and digital marketing.\n\nWe believe in creating unique and user-friendly websites that not only look great but also work seamlessly. Our strategy is to understand our customers' needs and goals and create tailored solutions to achieve them.\n\nWe believe in staying updated with the latest trends and technologies to always be able to deliver the best to our customers. Our goal is to help businesses grow and develop online by creating a strong digital presence.",
+
+  "PLAN_1_TITLE": "Basic",
+  "PLAN_2_TITLE": "Standard",
+  "PLAN_3_TITLE": "Premium",
+
+  "PLAN_1_TEXT": "For those of you looking to take the first step out into the digital world. Here we build a basic website.",
+  "PLAN_2_TEXT": "For those of you looking for a detailed website with more advanced features. You also want to reach your customers via search engines.",
+  "PLAN_3_TEXT": "For those of you looking for the very best and prioritize being leaders in your industry.",
+
+  "READ_MORE_TEXT": "Read more >",
+
+  "CONTACT_PLACEHOLDER_1": "Your name",
+  "CONTACT_PLACEHOLDER_2": "Your email address",
+  "CONTACT_PLACEHOLDER_3": "Email subject",
+  "CONTACT_SUBTITLE": "Email content",
+  "CONTACT_PLACEHOLDER_4": "Email content",
+
+  "CALL_ME_TITLE": "Enter a phone number and we'll call you and tell you about the plan:",
+  "CALL_ME_SUBTITLE": "Phone number:",
+  "CALL_ME_BUTTON_1": "Call me!",
+  "CALL_ME_BUTTON_2": "Close",
+
+  "FOOTER_TEXT_1": "The owners are active on Quora!",
+  "FOOTER_TEXT_2": "The owners are active on LinkedIn!",
+  "FOOTER_TEXT_3": "Follow us on Facebook!",
+  "FOOTER_TEXT_4": "Follow us on LinkedIn!",
+
+  "BOOK_MEETING_TITLE": "Schedule Meetings",
+
+  "BOOK_MEETING_BASIC_PLAN_TITLE": "Basic Plan",
+  "BOOK_MEETING_STANDARD_PLAN_TITLE": "Standard Plan",
+  "BOOK_MEETING_ADVANCED_PLAN_TITLE": "Premium Plan",
+
+  "BOOK_MEETING_CONSULTATION_TITLE": "Consultation",
+  "BOOK_MEETING_OTHER_TITLE": "Other Meeting",
+  "BOOK_MEETING_CONTINUATION_TITLE": "Follow-up Meeting",
+
+  "BOOK_MEETING_INSTRUCTIONS_TITLE": "How to book?",
+  "BOOK_MEETING_INSTRUCTIONS_1": "Choose a type of meeting under: <strong>\"Schedule Meetings\"</strong>.",
+  "BOOK_MEETING_INSTRUCTIONS_2": "Choose a date on the calendar.",
+  "BOOK_MEETING_INSTRUCTIONS_3": "Click on the date.",
+  "BOOK_MEETING_INSTRUCTIONS_4": "Enter time, email, and phone number.",
+  "BOOK_MEETING_INSTRUCTIONS_5": "Congratulations, your meeting is now scheduled!",
+
+  "BOOK_MEETING_MODAL_TITLE": "Here you can schedule meetings with us!",
+  "BOOK_MEETING_MODAL_TEXT": "On this page, you will find a calendar that you use to schedule meetings with us!\n\nTo schedule a meeting, drag one of the activities on the left to one of the days on the calendar",
+  "BOOK_MEETING_MODAL_BUTTON": "I understand!"
+}

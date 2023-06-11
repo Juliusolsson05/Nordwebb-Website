@@ -1,0 +1,76 @@
+{
+
+  "HEADER_HOME": "Hem",
+  "HEADER_INFORMATION": "Information",
+  "HEADER_PLANS": "Planer",
+  "HEADER_CONTACT": "Kontakt",
+  "HEADER_ABOUT_US": "Om oss",
+  "HEADER_BOOK_MEETING": "Boka ett möte",
+
+  "LANDING_TITLE": "Vi kan \nwebbsidor",
+  "INFORMATION_TITLE": "Varför \nwebbsidor",
+  "PLANS_TITLE": "Våra erbjudanden",
+  "CONTACT_TITLE": "Kontakta gärna oss!",
+  "ABOUT_TITLE": "Om oss",
+
+  "LANDING_BUTTON": "Gratis offert",
+  "INFORMATION_BUTTON": "Se video",
+  "CONTACT_BUTTON_1": "Skicka",
+  "CONTACT_BUTTON_2": "Boka möte",
+
+  "LANDING_TEXT": "Webbsidor kan vara en börda, vi tar ansvaret ifrån era axlar.",
+  "INFORMATION_TEXT": "En välutformad webbsida är nödvändig för att skapa förtroende och driva försäljning i dagens digitala värld.\n\nDet är en plattform för att nå ut till en större publik och visa upp dina produkter eller tjänster dygnet runt.",
+  "PLANS_TEXT": "Vi erbjuder tre olika paket som passar alla olika typer av företag.\n\nAllt ifrån enkla en-sidiga webbsidor till detaljerade internet applikationer.",
+  "ABOUT_TEXT": "Vi är en digital byrå baserad i Göteborg som grundades i början av 2023. Vårt team består av kreativa och passionerade individer med lång erfarenhet inom webbdesign, utveckling och digital marknadsföring.\n\nVi tror på att skapa unika och användarvänliga webbplatser som inte bara ser fantastiska ut utan också fungerar sömlöst. Vår strategi är att förstå våra kunders behov och mål och skapa skräddarsydda lösningar för att uppnå dem.\n\nVi tror på att hålla oss uppdaterade med de senaste trenderna och teknologierna för att alltid kunna leverera det bästa till våra kunder. Vårt mål är att hjälpa företag att växa och utvecklas online genom att skapa en stark digital närvaro.",
+
+  "PLAN_1_TITLE": "Enkel",
+  "PLAN_2_TITLE": "Standard",
+  "PLAN_3_TITLE": "Premium",
+
+  "PLAN_1_TEXT": "För er som letar efter att ta första steget ut i den digitala världen. Här bygger vi en grundläggande webbsida.",
+  "PLAN_2_TEXT": "För er som söker en detaljerad webbsida med mer avancerade funktioner. Ni vill även nå ut era kunder via sökmotorer.",
+  "PLAN_3_TEXT": "För er som söker det allra bästa och prioriterar att vara ledande inom er bransch.",
+
+  "READ_MORE_TEXT": "Läs mer >",
+
+  "CONTACT_PLACEHOLDER_1": "Ditt namn",
+  "CONTACT_PLACEHOLDER_2": "Din mailadress",
+  "CONTACT_PLACEHOLDER_3": "Mailets ämmne",
+  "CONTACT_SUBTITLE": "Mailets innehåll",
+  "CONTACT_PLACEHOLDER_4": "Mailets innehåll",
+
+  "CALL_ME_TITLE": "Ange ett telefon nummer så ringer vi er och berättar om planen:",
+  "CALL_ME_SUBTITLE": "Telefonnummer:",
+  "CALL_ME_BUTTON_1": "Ring mig!",
+  "CALL_ME_BUTTON_2": "Stäng",
+
+  "FOOTER_TEXT_1": "Ägarna är aktiva på Quora!",
+  "FOOTER_TEXT_2": "Ägarna är aktiva på LinkedIn!",
+  "FOOTER_TEXT_3": "Följ oss på Facebook!",
+  "FOOTER_TEXT_4": "Följ oss på LinkedIn!",
+
+  "BOOK_MEETING_TITLE": "Boka in möten",
+
+  "BOOK_MEETING_BASIC_PLAN_TITLE": "Enkel plan",
+  "BOOK_MEETING_STANDARD_PLAN_TITLE": "Standard plan",
+  "BOOK_MEETING_ADVANCED_PLAN_TITLE": "Premium plan",
+
+  "BOOK_MEETING_CONSULTATION_TITLE": "Konsultation",
+  "BOOK_MEETING_OTHER_TITLE": "Annat möte",
+  "BOOK_MEETING_CONTINUATION_TITLE": "Uppföljnings möte",
+
+  "BOOK_MEETING_INSTRUCTIONS_TITLE": "Hur bokar man?",
+  "BOOK_MEETING_INSTRUCTIONS_1": "Välj ett typ av möte under: <strong>\"Boka in möten\"</strong>.",
+  "BOOK_MEETING_INSTRUCTIONS_2": "Välj ett datum i kalendern.",
+  "BOOK_MEETING_INSTRUCTIONS_3": "Klicka på datumet.",
+  "BOOK_MEETING_INSTRUCTIONS_4": "Ange tid, mail samt telefon nummer.",
+  "BOOK_MEETING_INSTRUCTIONS_5": "Grattis, ditt möte är nu bokat!",
+
+  "BOOK_MEETING_MODAL_TITLE": "Här bokar du in möten med oss!",
+  "BOOK_MEETING_MODAL_TEXT": "På denna sidan finner du en kalender som du använder för att boka in möten med oss!\n\nFör att boka in ett möte drar du ut en av aktiviteterna till vänster till någon av dagarna på kalendern",
+  "BOOK_MEETING_MODAL_BUTTON": "Jag förstår!"
+
+
+
+
+}

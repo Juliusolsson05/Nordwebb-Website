@@ -1,0 +1,71 @@
+{
+  "HEADER_HOME": "首页",
+  "HEADER_INFORMATION": "信息",
+  "HEADER_PLANS": "计划",
+  "HEADER_CONTACT": "联系方式",
+  "HEADER_ABOUT_US": "关于我们",
+  "HEADER_BOOK_MEETING": "预约会议",
+
+  "LANDING_TITLE": "我们懂得\n网站",
+  "INFORMATION_TITLE": "为什么需要\n网站",
+  "PLANS_TITLE": "我们的优惠",
+  "CONTACT_TITLE": "请随时与我们联系！",
+  "ABOUT_TITLE": "关于我们",
+
+  "LANDING_BUTTON": "免费报价",
+  "INFORMATION_BUTTON": "看视频",
+  "CONTACT_BUTTON_1": "发送",
+  "CONTACT_BUTTON_2": "预约会议",
+
+  "LANDING_TEXT": "网站可能会带来负担，我们可以帮你承担责任。",
+  "INFORMATION_TEXT": "一个设计良好的网站在当今的数字世界中是建立信任和推动销售的必需品。\n\n它是一个平台，可以让你把产品或服务展示给更广泛的受众，全天候。",
+  "PLANS_TEXT": "我们提供三种不同的套餐，适合所有类型的公司。\n\n从简单的单页网站到详细的互联网应用。",
+  "ABOUT_TEXT": "我们是一家成立于2023年初的数字公司，总部位于哥德堡。我们的团队由富有创造力和热情的个体组成，他们在网站设计、开发和数字营销方面有着丰富的经验。\n\n我们相信，创造独特且用户友好的网站不仅外观上看起来很棒，而且功能流畅无比。我们的策略是理解我们客户的需求和目标，并创建定制的解决方案来实现这些目标。\n\n我们相信，保持与最新趋势和技术的同步，以便我们始终能够为客户提供最好的。我们的目标是通过创建强大的数字存在来帮助公司在线上增长和发展。",
+
+  "PLAN_1_TITLE": "简易",
+  "PLAN_2_TITLE": "标准",
+  "PLAN_3_TITLE": "尊享",
+
+  "PLAN_1_TEXT": "对于那些希望迈出在数字世界中的第一步的公司，我们在这里建立基本的网站。",
+  "PLAN_2_TEXT": "对于那些寻找带有更多高级功能的详细网站的公司，您还希望通过搜索引擎接触到您的客户。",
+  "PLAN_3_TEXT": "对于那些寻求最好的并优先考虑在行业内领先的公司。",
+
+  "READ_MORE_TEXT": "阅读更多 >",
+
+  "CONTACT_PLACEHOLDER_1": "您的名字",
+  "CONTACT_PLACEHOLDER_2": "您的邮件地址",
+  "CONTACT_PLACEHOLDER_3": "邮件主题",
+  "CONTACT_SUBTITLE": "邮件内容",
+  "CONTACT_PLACEHOLDER_4": "邮件内容",
+
+  "CALL_ME_TITLE": "请留下电话号码，我们会打电话给您介绍计划：",
+  "CALL_ME_SUBTITLE": "电话号码：",
+  "CALL_ME_BUTTON_1": "给我打电话！",
+  "CALL_ME_BUTTON_2": "关闭",
+
+  "FOOTER_TEXT_1": "所有者活跃在Quora！",
+  "FOOTER_TEXT_2": "所有者活跃在LinkedIn！",
+  "FOOTER_TEXT_3": "在Facebook上关注我们！",
+  "FOOTER_TEXT_4": "在LinkedIn上关注我们！",
+
+  "BOOK_MEETING_TITLE": "预定会议",
+
+  "BOOK_MEETING_BASIC_PLAN_TITLE": "简易计划",
+  "BOOK_MEETING_STANDARD_PLAN_TITLE": "标准计划",
+  "BOOK_MEETING_ADVANCED_PLAN_TITLE": "尊享计划",
+
+  "BOOK_MEETING_CONSULTATION_TITLE": "咨询",
+  "BOOK_MEETING_OTHER_TITLE": "其他会议",
+  "BOOK_MEETING_CONTINUATION_TITLE": "跟进会议",
+
+  "BOOK_MEETING_INSTRUCTIONS_TITLE": "如何预约？",
+  "BOOK_MEETING_INSTRUCTIONS_1": "在<strong>\"预定会议\"</strong>下选择一个会议类型。",
+  "BOOK_MEETING_INSTRUCTIONS_2": "在日历中选择一个日期。",
+  "BOOK_MEETING_INSTRUCTIONS_3": "点击日期。",
+  "BOOK_MEETING_INSTRUCTIONS_4": "输入时间、电子邮件和电话号码。",
+  "BOOK_MEETING_INSTRUCTIONS_5": "恭喜，您的会议现在已经预定！",
+
+  "BOOK_MEETING_MODAL_TITLE": "您可以在这里预约与我们的会议！",
+  "BOOK_MEETING_MODAL_TEXT": "在这个页面，你会找到一个日历，你可以用它来预约和我们的会议！\n\n要预约一个会议，只需要把左边的活动拖到日历上的任何一天。",
+  "BOOK_MEETING_MODAL_BUTTON": "我明白了！"
+}
