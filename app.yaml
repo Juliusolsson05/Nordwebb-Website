@@ -1,20 +1,38 @@
 runtime: python27
 api_version: 1
 threadsafe: true
-handlers:
-  - url: /
-    static_files: dist/nordwebb/index.html
-    upload: dist/nordwebb/index.html
-  - url: /
-    static_dir: dist/nordwebb
-skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - coverage
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE
 
+handlers:
+- url: /assets/i18n
+  static_dir: dist/nordwebb/assets/i18n
+- url: /assets/images
+  static_dir: dist/nordwebb/assets/images
+- url: /(.*\.json)
+  mime_type: application/json
+  static_files: dist/nordwebb/\1
+  upload: dist/nordwebb/.*\.json$
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: dist/nordwebb/\1
+  upload: dist/nordwebb/.*\.css$
+- url: /(.*\.js)
+  mime_type: application/javascript
+  static_files: dist/nordwebb/\1
+  upload: dist/nordwebb/.*\.js$
+- url: /(.*\.(png|jpg|jpeg|gif|svg|ico))
+  static_files: dist/nordwebb/\1
+  upload: dist/nordwebb/.*\.(png|jpg|jpeg|gif|svg|ico)$
+- url: /.*
+  static_files: dist/nordwebb/index.html
+  upload: dist/nordwebb/index.html
+
+skip_files:
+- e2e/
+- node_modules/
+- src/
+- coverage/
+- ^(.*/)?\..*$
+- ^(?!.*assets/i18n/.*\.json$).*\.json$
+- ^(.*/)?.*\.md$
+- ^(.*/)?.*\.yaml$
+- ^LICENSE
