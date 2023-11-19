@@ -24,14 +24,14 @@ const limiter = rateLimit({
 app.post('/send-sms', limiter, (req, res) => {
     console.log("test")
 
-    const accountSid = 'AC50325dc7de2f2a9621dc6b7a7ec82989';
-    const authToken = '3e57f562ea9845789dbab48b9034479f';
+    const accountSid = 'hidden';
+    const authToken = 'hidden';
     const client = new twilio(accountSid, authToken);
 
     client.messages.create({
         body: `En användare vill ringa oss med denna info: Plan: ${req.body.userTier}, Nummer: ${req.body.userNumber}`,
-        to: '+46720135358',  // Your phone number
-        from: '+13613664524' // Your Twilio number
+        to: '+hidden',  // Your phone number
+        from: '+hidden' // Your Twilio number
     })
     .then((message) => console.log(message.sid));
 });
